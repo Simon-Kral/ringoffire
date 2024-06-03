@@ -1,0 +1,147 @@
+GOG Fallout 2 Code DGY50C928F474D3D93
+
+
+Join
+contacts.html
+privacy
+legal notice
+
+
+in users pushen                 users[loaduser].todo.push('hi')
+speichern auf dem Server        await setItem('users', JSON.stringify(users))
+
+
+@media only screen and (max-width: 1300px)
+@media only screen and (max-width: 1030px)
+@media only screen and (max-width: 700px)
+@media only screen and (max-width: 450px)
+@media only screen and (max-width: 400px)
+
+
+https://www.youtube.com/watch?v=VnmyTJhqApk
+https://www.youtube.com/watch?v=Yo3j_Dx4u7c
+https://krita.org/de/
+https://www.youtube.com/watch?v=akDIJa0AP5c
+
+
+The Colorful Comments Extension will help you create more human-friendly comments in your code.
+With this Extension, you will be able to categorise your cody by special colour into:
+
+Red (!)
+Blue (?)
+Green (*)
+Yellow (^)
+Pink (&)
+Purple (~)
+Mustard (todo)
+Grey (//)
+Commented out Code can also be Styled to make it Clear the Code shouldn't be There.
+Any Other Comment Styles you'd like can be Specified in the Settings.
+
+
+🖥️ GIT COMMANDS CHEAT SHEET
+
+add repo to pc:     git clone git@github.com:User/Repo.git
+
+workflow:           git pull, git switch -c work-branch, git work, git commit -a -m "",
+                    git switch main, git pull, git merge -m "Merge work-branch back to main" work-branch,
+                    git branch -d work-branch, git push -u origin main
+
+https://www.youtube.com/watch?v=tRZGeaHPoaw             - Tutorial
+
+General - head
+git init                                                - Initialize a new git repository
+git clone [REPO-URL]                                    - Clone a repository
+git log                                                 - List the commit history
+git log --oneline                                       - abbreviated View of commit history
+
+Add files - head
+git add [FILE]                                          - Add single file
+git add --all                                           - Add all files
+git add -A                                              -      "      -
+git add .                                               -      "      -
+
+Manage staging - head
+git diff                                                - Check the unstaged changes
+git commit -m [MESSAGE]                                 - Commit the staged changes
+git commit -m [MESSAGE] --amend                         - Amend the message of the last commit
+git commit -a -m [MESSAGE]                              - Commit all changed files
+git reset                                               - Reset staging area to the last commit
+git status                                              - Check the state of the working directory and the staging area
+
+Manage branches - head
+git branch                                              - List all the local branches
+git branch [BRANCH NAME]                                - Create a new branch
+git branch -m [NEW BRANCH NAME]                         - Rename the current branch
+git branch -d [BRANCH NAME]                             - Delete a branch
+git switch [BRANCH NAME]                                - Switch to another branch
+git switch -c [NEW BRANCH NAME]                         - Create and switch to new branch
+git merge [BRANCH NAME]                                 - Merge specified branch into the current branch
+git merge -m [MESSAGE] [BRANCH NAME]                    - Merge with message
+
+Manage remote repositories - head
+git remote add [NAME] [REPOSITORY URL]                  - Create a connection to a remote repository
+git remote add origin git@github.com:[User]/[Repo].git  - Add Repo from User
+git push [REMOTE] [BRANCH]                              - Push the committed changes to a remote directory
+git push -u origin main                                 - Push the committed changes on main the origin remote directory
+git pull [REMOTE]                                       - Download the content from a remote repository
+
+Manage files - head
+git rm [FILENAME]                                       - Remove a file from the index and working directory
+git mv [OLD NAME] [NEW NAME]                            - Rename a file
+
+Set global-config - head
+git config --global user.name [YOUR NAME]               - Set configuration value for your username
+git config --global user.name [Simon Kral]              - Set configuration value for your username
+git config --global user.email [YOUR EMAIL]             - Set configuration value for your email
+git config --global user.email [simonkral92@gmail.com]  - Set configuration value for your email
+git config --global init.default branch main            - Set default branch to main
+
+Help - head
+git help [COMMAND]                                      - Get help on a command
+git [COMMAND] -h                                        - Get help on a command
+
+
+https://join-111.developerakademie.net/index.html
+https://join-111.developerakademie.net/out/global.html
+https://trello.com/b/4pSCfhqm/mein-trello-board
+
+
+
+Node Package Manager - head
+
+package.JSON                                            - all packages, that need to be installed
+npm install                                             - install all packages from package.JSON
+npm install typescript/material-design-lite             - install package
+npm install typescript -g                               - install package global
+
+
+Typescript - head
+
+tsc --help                                              - display help
+tsc script.ts                                           - convert typescript-file to javascript-file
+tsc script.ts --target [version]                        - convert file into a specific javascript-version
+tsc script.ts --target es2018                           - convert file into es2018-javascript-file
+
+
+SASS / SCSS - head
+
+https://www.youtube.com/watch?v=tHTe1Sag1Oc             - Tutorial
+sass style.scss style.css                               - convert .scss-file to .css-file
+
+
+Angular - head
+
+ng new [name]                                           - generate new workspace (new project)
+ng serve --open                                         - start live server
+ng generate component                                   - generate new component
+ng g c                                                  - short
+ng build                                                - convert to .html .css & .js
+ng build --base-href "/angular-projects/sakura/"        - change base-href on build
+ng --source-map=true                                    - generate .js.map-Dateien so you see all files in debugger
+ng generate service [name]                              - generate new service
+ng g s [name]                                           - short
+
+
+WICHTIG: mit "--source-map=true" funktioniert aktuell dann das routing nicht, bitte immer den link zum GIT-Repository mit schicken.
+bei Fragen zu Angular schicken: GitHub-Link, FTP-Link mit source-map=true, Loom mit Beschreibung "Wo habe ich was versucht und wo ist wahrscheinlich der Fehler?"
