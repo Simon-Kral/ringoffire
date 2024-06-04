@@ -43,5 +43,11 @@ Thumbs.db
 
 
 # Custom
-
+.git
+.git*
+up.*
+*.txt
+*.json
 *.todo
+*.dio
+*.drawio
